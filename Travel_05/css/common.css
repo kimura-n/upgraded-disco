@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dt,
+dt,
+dd,
+li,
+table,
+th,
+td,
+form,
+select,
+option,
+address,
+pre,
+strong,
+em,
+caption,
+cite,
+code,
+dfn,
+var,
+div {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-weight: normal;
+	font-style: normal;
+}
+img {
+	border: 0;
+	background-color: transparent;
+	vertical-align: bottom;
+}
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+caption,
+th {
+	text-align: left;
+}
+fieldset {
+	border: 0;
+}
+hr {
+	display: none;
+}
+ol,
+ul {
+	list-style: none;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol,
+dl ul,
+dl ol,
+dl dl,
+td td,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	color: #555555;
+	font-family: meiryo, Georgia;
+	font-size: 78%;
+	font-size: 12px\9;
+	line-height: 1.3;
+}
+body a:hover {
+	text-decoration: none;
+}
+ul.disc li {
+	list-style: disc inside;
+}
+body,
+td,
+th {
+	word-wrap: break-word;
+}
+.clearfix::after, .box::after, .main::after, #wrapper::after {
+  content: ""; 
+  display: block; 
+  clear: both;
+}
